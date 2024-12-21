@@ -57,23 +57,26 @@ Show
 AreaLevel >= 70
 StackSize >= 1000
 BaseType == "Gold"
-SetTextColor 255 255 255
-SetBorderColor 255 255 255
+SetTextColor 0 0 0
+SetBorderColor 0 0 0
+SetBackgroundColor 255 215 0
 PlayEffect Orange Temp
 
 Show
 AreaLevel < 70
 StackSize >= 500
 BaseType == "Gold"
-SetTextColor 255 255 255
-SetBorderColor 255 255 255
+SetTextColor 0 0 0
+SetBorderColor 0 0 0
+SetBackgroundColor 255 215 0
 PlayEffect Orange Temp
 
 Show
 BaseType == "Gold"
-SetTextColor 180 180 180
-SetBorderColor 0 0 0 255
-SetBackgroundColor 0 0 0 180
+SetFontSize 30
+SetTextColor 255 215 0
+SetBorderColor 255 215 0
+SetBackgroundColor 255 215 0
 
 #--------------------------
 # Uncut Gems
@@ -199,10 +202,10 @@ PlayEffect Cyan Temp
 # Scroll of Wisdom High Level Hiding
 #--------------------------
 
-Hide
-BaseType "Scroll of Wisdom"
-AreaLevel >= 65
-Rarity <= Magic
+# Hide
+# BaseType "Scroll of Wisdom"
+# AreaLevel >= 65
+# Rarity <= Magic
 
 #--------------------------
 # Socketables and Special Character Equipment
