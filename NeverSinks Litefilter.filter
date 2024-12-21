@@ -59,7 +59,7 @@ StackSize >= 1000
 BaseType == "Gold"
 SetTextColor 0 0 0
 SetBorderColor 0 0 0
-SetBackgroundColor 255 215 0
+SetBackgroundColor 205 127 50
 PlayEffect Orange Temp
 
 Show
@@ -68,15 +68,13 @@ StackSize >= 500
 BaseType == "Gold"
 SetTextColor 0 0 0
 SetBorderColor 0 0 0
-SetBackgroundColor 255 215 0
+SetBackgroundColor 205 127 50
 PlayEffect Orange Temp
 
 Show
 BaseType == "Gold"
-SetFontSize 30
-SetTextColor 255 215 0
-SetBorderColor 255 215 0
-SetBackgroundColor 255 215 0
+SetFontSize 15
+SetTextColor 205 127 50
 
 #--------------------------
 # Uncut Gems
