@@ -191,7 +191,7 @@ PlayEffect Cyan
 PlayAlertSound 2 300
 
 # Special B Tier - Any Runes and Charms
-Show 
+Show
 BaseType " Rune" " Charm"
 SetTextColor 0 240 190
 PlayEffect Cyan Temp
@@ -200,10 +200,11 @@ PlayEffect Cyan Temp
 # Scroll of Wisdom High Level Hiding
 #--------------------------
 
-# Hide
-# BaseType "Scroll of Wisdom"
+Show
+BaseType "Scroll of Wisdom"
 # AreaLevel >= 65
 # Rarity <= Magic
+SetFontSize 30
 
 #--------------------------
 # Socketables and Special Character Equipment
@@ -415,25 +416,25 @@ Show
 Sockets > 0
 Rarity Normal
 SetBorderColor 200 200 200
-SetFontSize 35
+SetFontSize 30
 
 Show
 Quality > 1
 Rarity Normal
 SetBorderColor 200 200 200
-SetFontSize 35
+SetFontSize 30
 
 Show
 Sockets > 0
 Rarity Magic
 SetBorderColor 0 0 200
-SetFontSize 35
+SetFontSize 30
 
 Show
 Quality > 1
 Rarity Magic
 SetBorderColor 0 0 200
-SetFontSize 35
+SetFontSize 30
 
 #--------------------------
 # Random Rares
