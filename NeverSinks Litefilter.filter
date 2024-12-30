@@ -473,9 +473,10 @@ SetFontSize 35
 # Hide Rules (only high level), super light edition
 #--------------------------
 
+# Hide quality flasks since they cannot be disenchanted
 Hide
-Quality = 0
-AreaLevel > 70
+Quality >= 0
+AreaLevel >= 65
 Rarity <= Magic
 Class "Flasks"
 
@@ -526,14 +527,14 @@ Class "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One 
 
 Hide
 Rarity <= Magic
-Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows" "Wands" "Sceptres"
+Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Belts" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows" "Wands" "Sceptres"
 AreaLevel >= 65
 
 ### OPTIONAL RULE: REDUCES BACKGROUND ON LOW LEVEL BASES
 
 Show
 Rarity <= Magic
-Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows" "Wands" "Sceptres"
+Class "Flasks" "Body Armours" "Helmets" "Boots" "Gloves" "Belts" "Shields" "Foci" "Quivers" "One Hand Maces" "Two Hand Maces" "Staves" "Quarterstaves" "Bows" "Crossbows" "Wands" "Sceptres"
 AreaLevel >= 65
 DropLevel <= 50
 SetBackgroundColor 0 0 0 125
